@@ -10,7 +10,23 @@ This file is a central part of my application, it contains routes made with flas
 
 
 
-Now I will explain briefly each function:
+**Now I will explain briefly each function:**
 
 ##### Register
-GE
+GET: renders registration template
+POST: sends authentication link with user data on email in order to confirm that user owns this email
+#####  Confirm 
+Adds user to db and logs him in.
+##### Login
+GET: Renders log in template
+POST: Checks weather user with given login exists and weather entered password is right, if yes, logs user in, if no, returns error.
+##### Reset
+Generates and stores authentication code in flask session and renders reset password template.
+##### Confirm_Reset
+POST: Sends authentication link for changing password to user email.
+GET: Changes user password in db and logs user in
+##### Index
+Renders main page
+##### Brainstorm 
+Generates idea on a topic given by user, renders this idea and image
+
