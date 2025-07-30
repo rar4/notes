@@ -74,4 +74,47 @@ Args: query - topic on which ideas are generated, concise - boolean object that 
 Constructs prompt, gives it to llm then turns llm response object to string and returns it.
 
 #### fetch_image.py
-Connects to pexels API and 
+Connects to pexels API 
+##### Fetch_Image
+Args: query
+Searches for image with pexels API and returns link to it, if can't find any, returns link to image with message that image is not found.
+
+#### brainstorm.db 
+Contains all the necessary SQL tables for project.
+
+schema:
+CREATE TABLE User (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            username TEXT NOT NULL UNIQUE,
+            password_hash TEXT NOT NULL);
+CREATE TABLE sqlite_sequence(name,seq);
+CREATE TABLE BrainstormSession (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            user_id INTEGER NOT NULL,
+            topic TEXT NOT NULL,
+            idea_description TEXT NOT NULL,
+            idea TEXT NOT NULL,
+            image_url TEXT NOT NULL,
+            timestamp TEXT NOT NULL,
+            FOREIGN KEY (user_id) REFERENCES User(id)
+        );
+#### pexest.txt
+Contains pexels API key.
+
+#### generation.txt
+Contains title of google cloud project.
+
+#### Templates
+
+Folder that contains jinja templates for the flask application.
+
+##### gate.html
+Wrapper template for pre-login pages.
+##### layout.html 
+Wrapper for post login pages.
+##### login.html
+Login form page
+##### register.html
+Register form page
+##### brainstorm.html
+Brainstorming session page, displays ide
