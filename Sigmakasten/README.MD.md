@@ -116,5 +116,23 @@ Wrapper for post login pages.
 Login form page
 ##### register.html
 Register form page
+##### index.html
+The main page with 
 ##### brainstorm.html
-Brainstorming session page, displays ide
+Brainstorming session page, displays idea title and image, activates endBrainstorm function via accept idea button and reloads page via next idea button.
+##### error.html
+Page, that contains error message and link to main page
+##### history.html
+Contains table of whole previous user ideas.
+Columns: Topic, Idea, View Idea (link idea page).
+##### idea.html
+Contains image, idea, its description, and link to the main page.
+
+
+
+#### Static
+Contains static files
+##### script.js
+Contains javascript
+###### endBrainstorm
+Redirects to idea route with idea title and image link as arguments
