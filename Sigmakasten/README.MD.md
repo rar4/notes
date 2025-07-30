@@ -113,22 +113,22 @@ Wrapper template for pre-login pages.
 ##### layout.html 
 Wrapper for post login pages.
 ##### login.html
-Login form page
+Login form page.
 ##### register.html
-Register form page
+Register form page.
 ##### index.html
-The main page with 
+The main page with input field for user's topic for brainstorming.
 ##### brainstorm.html
 Brainstorming session page, displays idea title and image, activates endBrainstorm function via accept idea button and reloads page via next idea button.
 ##### error.html
-Page, that contains error message and link to main page
+Page, that contains error message and link to main page.
 ##### history.html
 Contains table of whole previous user ideas.
 Columns: Topic, Idea, View Idea (link idea page).
 ##### idea.html
 Contains image, idea, its description, and link to the main page.
-
-
+##### reset.html
+Contains form for password reset
 
 #### Static
 Contains static files
@@ -136,3 +136,5 @@ Contains static files
 Contains javascript
 ###### endBrainstorm
 Redirects to idea route with idea title and image link as arguments
+##### style.css
+Contains css for making body background gradient
