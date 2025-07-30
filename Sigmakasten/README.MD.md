@@ -60,4 +60,18 @@ Args: name, passwd
 If credentials are right, logs in user, if not returns none
 ##### Db_Exec
 Args: query, args
-Executes query in SQLite database with arguments from args and returns wha
+Executes query in SQLite database with arguments from args and returns what database yields, handles SQLite integrity error
+
+
+#### generation.py
+
+
+Connects to Gemini through google cloud API, contains all prompts, setup and logic for connection. 
+
+##### Generate_Idea
+Args: query - topic on which ideas are generated, concise - boolean object that decides weather to generate and idea on a given topic or to make a description to a given title.
+
+Constructs prompt, gives it to llm then turns llm response object to string and returns it.
+
+#### fetch_image.py
+Connects to pexels API and 
