@@ -45,8 +45,19 @@ Args: data - string for encryption/decryption, encrypt - bool value which decide
 
 Uses Fernet to encrypt or decrypt strings using secret key.
 ##### Send_Confirmation_Email
-Args: receiver_address, message
+Args: receiver_address, message.
 Sends message to receiver address with content of message using smtp lib.
 ##### Make_URL
-Args: page 
-
+Args: page - title of sub-page of a site, args - python dict which stores URL argument names as keys and its values.
+Constructs URL to given sub-page of a site with given arguments.
+##### Error
+Args: message
+Renders an error with a given message
+##### Login_required
+Checks weather user that accessing decorated route is logged in, if not, redirects to log in page.
+##### Enter
+Args: name, passwd
+If credentials are right, logs in user, if not returns none
+##### Db_Exec
+Args: query, args
+Executes query in SQLite database with arguments from args and returns wha
