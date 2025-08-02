@@ -1,1 +1,0 @@
-Levels: levels are the places where market suddenly changed direction, typycaly 
