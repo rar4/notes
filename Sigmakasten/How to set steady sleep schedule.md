@@ -20,8 +20,17 @@ They are:
 5. Block of flats are to crowded to relax fully (you see and hear other unknown people which is treated as a danger).
 6. Too little sun exposure.
 
+### Getting up
+
+#### How to decide is your sleep healthy or not?
+You have to fall asleep easily and get up as fresh and motivated as possible. If you don't, your sleep is fucked.
+
+
+
 ### What to do?
 
-1. View sun in morning and later in the day. (It triggers melatonin to produce)
+1. View sun in morning and later in the day. (It triggers melatonin to produce).
+2. Do some business. (Do some mental AND physical activity in order to get this fatigue).
+
 
 ## References:
