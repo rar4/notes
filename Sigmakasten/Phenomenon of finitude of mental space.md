@@ -2,7 +2,7 @@
 
 ## Date: 2025-07-16 20:26 
 
-## Tags:  [[Brain Power]]
+## Tags:  #Brainpower 
 
 
 ## Content:
