@@ -26,12 +26,14 @@ They are:
 You have to fall asleep easily and get up as fresh and motivated as possible. If you don't, your sleep is fucked.
 
 #### How to set mood for the rest of your day?
-20 minutes after waking up set whole your mood and thinking for the rest of your day, so if you will fill lazy or snooze, know the rest of your day is cursed to be 
+20 minutes after waking up set whole your mood and mindset for the rest of your day, so if you will fill lazy or snooze, know the rest of your day is cursed to be fucked.
 
 ### What to do?
 
 1. View sun in morning and later in the day. (It triggers melatonin to produce).
 2. Do some business. (Do some mental AND physical activity in order to get this fatigue).
+3. Go to bed hungry.
+4. 
 
 
 ## References:
