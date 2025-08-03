@@ -25,7 +25,8 @@ They are:
 #### How to decide is your sleep healthy or not?
 You have to fall asleep easily and get up as fresh and motivated as possible. If you don't, your sleep is fucked.
 
-
+#### How to set mood for the rest of your day?
+20 minutes after waking up set whole your mood and thinking for the rest of your day, so if you will fill lazy or snooze, know the rest of your day is cursed to be 
 
 ### What to do?
 
