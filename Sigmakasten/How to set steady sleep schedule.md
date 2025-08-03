@@ -33,7 +33,8 @@ You have to fall asleep easily and get up as fresh and motivated as possible. If
 1. View sun in morning and later in the day. (It triggers melatonin to produce).
 2. Do some business. (Do some mental AND physical activity in order to get this fatigue).
 3. Go to bed hungry.
-4. 
+4. Take hot shower 30 min before sleep.
+5. Make a good ventilation during your sleep
 
 
 ## References:
